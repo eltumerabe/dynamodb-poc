@@ -1,0 +1,8 @@
+server:
+  port: 1111
+################# aws configruation  ########################3
+aws:
+  dynamodb:
+    accessKey: ${AWS_ACCESS_KEY}
+    secretKey: ${AWS_SECRET_KY}
+    region: ${AWS_REGION}
